@@ -1,4 +1,3 @@
-Welcome to the SNP-ML wiki!
 # SNP-ML is A machine learning dependent tool for SNP calling in polyploidy organisms
 # this program requirs the following packages:
 * numpy-1.11.0 (SciPy.org)
