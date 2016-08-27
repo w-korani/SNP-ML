@@ -8,7 +8,7 @@
 *   scikit-learn-0.17.1 (scikit-learn.org) 
 *   pyrenn 0.1 (pyrenn.readthedocs.io)
 
-# SNP-ML.tar.gz can be downoloaded and extracted (tar -zxvf SNP-ML.tar.gz) in advance, then if the user does not have requried packages, dependencies.tar.gz can be downloaded and extracted (tar -zxvf dependencies.tar.gz), it will create a folder called "dependencies" inside SNP-ML folder, the contents can be installed by running dep.sh file.
+# SNP-ML.tar.gz can be downoloaded and extracted (tar -zxvf SNP-ML.tar.gz) in advance, then if the user does not have the required packages, dependencies can be downloaded (DEPaa:DEPaf), merged (cat DEPa* > dependencies.tar.gz) and extracted (tar -zxvf dependencies.tar.gz), it will create a folder called "dependencies" inside SNP-ML folder, the contents can be installed by running dep.sh file.
 # the program takes vcf file as input, the input file can be SWEEP output or the output of calling SNPs by samtools mpileup, in case of using samtools/bcftools, the user should use -m option (not -c) when he/she calls SNPs, EXAMPLE:
 1. samtools faidx refernce.fa
 2.   samtools mpileup -g -f refernce.fa genotype1.bam genotype2.bam genotype3.bam > output.bcf
