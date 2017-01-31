@@ -11,6 +11,7 @@ the user can check if s/he has any of these package/versions by running the pyth
 print("\n".join(sorted(["%s==%s" % (i.key, i.version) for i in pip.get_installed_distributions()])))
 
 If any of these pacakges are not availble, it should be downloaded and installed before running SNP-ML.
+
 After downloading and extracting SNP-ML, the user probably needs to run chmod command if s/he has a permission issue, EXAMPL: chmod 777 SNP-ML
 
 # the program takes vcf file as input, the input file can be SWEEP output or the output of calling SNPs by samtools mpileup or any other tools, in case of using samtools/bcftools, the user should use -m option (not -c) when he/she calls SNPs, EXAMPLE:
