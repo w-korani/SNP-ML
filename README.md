@@ -7,6 +7,7 @@
 *   pytz-2016.4 (pypi.python.org) https://pypi.python.org/pypi/pytz/2016.4
 *   scikit-learn-0.17.1 (scikit-learn.org) https://pypi.python.org/pypi/scikit-learn/0.17.1
 *   pyrenn 0.1 (pyrenn.readthedocs.io) https://pyrenn.readthedocs.io/en/latest/
+
 the user can check if s/he has any of these package/versions by running the python command:
 print("\n".join(sorted(["%s==%s" % (i.key, i.version) for i in pip.get_installed_distributions()])))
 
