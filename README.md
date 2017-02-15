@@ -22,6 +22,7 @@ After downloading and extracting SNP-ML, the user probably needs to run chmod co
 4.   bcftools convert output_snps.bcf -o output_snps_input4snpml.vcf
 
 # the program was tested and works fine with samtools 1.2 and bcftools 1.2.1
-# help file containing the information for running the program can be retrieve by typing SNP-ML -h
+# help file containing the information for running the program can be retrieve by typing SNP-ML -h or SNP-MLer -h
 # testing vcf is available in the extracted files, dna_test.vcf, it can be run by the following command as an example:
-SNP-ML -i input_dna4test.vcf -o output_test -c 0.5 -t dna
+SNP-MLer -iTP TP_five_genotype_10x_snps.vcf -iFP FP_five_genotype_10x_snps.vcf -o sim_peanut_five_10x
+SNP-ML -i input_dna4test.vcf -iM sim_peanut_five_10x -o output_test
