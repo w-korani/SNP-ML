@@ -1,5 +1,6 @@
 # SNP-ML is A machine learning dependent tool for SNP calling in polyploidy organisms
 # this program requirs the following packages:
+
  *  numpy-1.11.0 (SciPy.org) https://pypi.python.org/pypi/numpy/1.11.0
 *   scipy-0.17.1 (SciPy.org) https://pypi.python.org/pypi/scikit-learn/0.17.1
 *   pandas-0.18.1 (pandas.pydata.org) https://pypi.python.org/pypi/pandas/0.18.1/
