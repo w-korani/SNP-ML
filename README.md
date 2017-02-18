@@ -1,6 +1,6 @@
 # SNP-ML is A machine learning dependent tool for SNP calling in polyploidy organisms
-# this program requirs the following packages:
-*  numpy-1.11.0 (SciPy.org) https://pypi.python.org/pypi/numpy/1.11.0
+# this program requires the following packages:
+*   numpy-1.11.0 (SciPy.org) https://pypi.python.org/pypi/numpy/1.11.0
 *   scipy-0.17.1 (SciPy.org) https://pypi.python.org/pypi/scikit-learn/0.17.1
 *   pandas-0.18.1 (pandas.pydata.org) https://pypi.python.org/pypi/pandas/0.18.1/
 *   python-dateutil-2.0 (pypi.python.org) http://labix.org/python-dateutil
@@ -16,8 +16,8 @@ If any of these pacakges are not availble, it should be downloaded and installed
 After downloading and extracting SNP-ML, the user probably needs to run chmod command if s/he has a permission issue, EXAMPLE: chmod 777 SNP-ML
 
 # the program takes vcf file as input, the input file can be SWEEP output or the output of calling SNPs by samtools mpileup or any other tools, in case of using samtools/bcftools, the user should use -m option (not -c) when he/she calls SNPs, EXAMPLE:
-1.   samtools faidx refernce.fa
-2.   samtools mpileup -g -f refernce.fa genotype1.bam genotype2.bam genotype3.bam > output.bcf
+1.   samtools faidx reference.fa
+2.   samtools mpileup -g -f reference.fa genotype1.bam genotype2.bam genotype3.bam > output.bcf
 3.   bcftools call -vc -V indels output.bcf > output_snps.bcf
 4.   bcftools convert output_snps.bcf -o output_snps_input4snpml.vcf
 
