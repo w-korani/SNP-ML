@@ -27,3 +27,5 @@ After downloading and extracting SNP-ML, the user probably needs to run chmod co
 SNP-ML -i dna_test.vcf -iM peanut_DNA -o output_test
 # creating a new model command examples:
 SNP-MLer -iTP TP_five_genotype_10x_snps.vcf -iFP FP_five_genotype_10x_snps.vcf -o sim_peanut_five_10x
+
+NOTE: An extendable database is available (db), the user can donwload the desired database into the 'db' folder of SNP-ML.
