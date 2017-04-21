@@ -11,11 +11,15 @@
 the user can check if s/he has any of these package/versions by running the python command:
 
 pip list|grep package_name
+      
       example: pip list|grep scipy
 
 If any of these pacakges are not availble, it should be downloaded and installed before running SNP-ML.
 the user may use the following command to directly install a specific package: 
-pip install 'package==version', example: pip install 'numpy==1.11.0'
+
+pip install 'package==version' 
+      
+      example: pip install 'numpy==1.11.0'
 
 After downloading and extracting SNP-ML, the user probably needs to run chmod command if s/he has a permission issue, EXAMPLE: chmod 777 SNP-ML
 
