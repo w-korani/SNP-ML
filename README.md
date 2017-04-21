@@ -9,9 +9,12 @@
 *   pyrenn 0.1 (pyrenn.readthedocs.io) https://pyrenn.readthedocs.io/en/latest/
 
 the user can check if s/he has any of these package/versions by running the python command:
-print("\n".join(sorted(["%s==%s" % (i.key, i.version) for i in pip.get_installed_distributions()])))
+pip list|grep package_name
+      example: pip list|grep scipy
 
 If any of these pacakges are not availble, it should be downloaded and installed before running SNP-ML.
+the user may use the following command to directly install a specific package: 
+pip install 'package==version', example: pip install 'numpy==1.11.0'
 
 After downloading and extracting SNP-ML, the user probably needs to run chmod command if s/he has a permission issue, EXAMPLE: chmod 777 SNP-ML
 
@@ -23,8 +26,9 @@ After downloading and extracting SNP-ML, the user probably needs to run chmod co
 
 # the program was tested and works fine with samtools 1.2 and bcftools 1.2.1
 # help file containing the information for running the program can be retrieve by typing SNP-ML -h or SNP-MLer -h
-# testing vcf is available in the extracted files, dna_test.vcf, it can be run by the following command as an example:
-SNP-ML -i dna_test.vcf -iM peanut_DNA -o output_test
+# testing vcf is available in the extracted files, dna_test.vcf, it can be run by the following command as examples:
+./SNP-ML -i dna_test.vcf -iM peanut_DNA -o output_test
+./SNP-ML -i DNA_test.vcf -iM sim_peanut_two_10x -o output_test
 # creating a new model command examples:
 SNP-MLer -iTP TP_five_genotype_10x_snps.vcf -iFP FP_five_genotype_10x_snps.vcf -o sim_peanut_five_10x
 
