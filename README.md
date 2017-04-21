@@ -9,6 +9,7 @@
 *   pyrenn 0.1 (pyrenn.readthedocs.io) https://pyrenn.readthedocs.io/en/latest/
 
 the user can check if s/he has any of these package/versions by running the python command:
+
 pip list|grep package_name
       example: pip list|grep scipy
 
@@ -28,6 +29,7 @@ After downloading and extracting SNP-ML, the user probably needs to run chmod co
 # help file containing the information for running the program can be retrieve by typing SNP-ML -h or SNP-MLer -h
 # testing vcf is available in the extracted files, dna_test.vcf, it can be run by the following command as examples:
 ./SNP-ML -i dna_test.vcf -iM peanut_DNA -o output_test
+
 ./SNP-ML -i DNA_test.vcf -iM sim_peanut_two_10x -o output_test
 # creating a new model command examples:
 SNP-MLer -iTP TP_five_genotype_10x_snps.vcf -iFP FP_five_genotype_10x_snps.vcf -o sim_peanut_five_10x
