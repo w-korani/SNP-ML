@@ -32,7 +32,7 @@ After downloading and extracting SNP-ML, the user probably needs to run chmod co
 # the program was tested and works fine with samtools 1.2 and bcftools 1.2.1
 # help file containing the information for running the program can be retrieve by typing SNP-ML -h or SNP-MLer -h
 # testing vcf is available in the extracted files, dna_test.vcf, it can be run by the following command as examples:
-      ./SNP-ML -i dna_test.vcf -iM peanut_DNA -o output_test
+      ./SNP-ML -i DNA_test.vcf -iM peanut_DNA -o output_test
 
       ./SNP-ML -i DNA_test.vcf -iM sim_peanut_two_10x -o output_test
 # creating a new model command examples:
