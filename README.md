@@ -1,4 +1,7 @@
 # SNP-ML is A machine learning dependent tool for SNP calling in polyploidy organisms
+
+Korani, W. A.; Clevenger, J.;  Chu, Y. and Ozias-Akins, P. (2019). Machine Learning as an Effective Method for Identifying True Single Nucleotide Polymorphisms in Polyploid Plants. Plant Genome, 12(1).
+
 # this program requires the following packages:
 *   numpy-1.11.0 (SciPy.org) https://pypi.python.org/pypi/numpy/1.11.0
 *   scipy-0.17.1 (SciPy.org) https://pypi.python.org/pypi/scikit-learn/0.17.1
